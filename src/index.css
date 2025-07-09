@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 전남교육또박체 폰트 정의 */
+@font-face {
+  font-family: 'JeonnamDotak';
+  src: url('/전남교육또박체-EB.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  * {
+    @apply border-gray-200;
+  }
+  
+  body {
+    @apply bg-white text-gray-900 font-sans;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* 페이지 전환 시 스크롤 위치 즉시 리셋 */
+  main {
+    scroll-behavior: auto;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50;
+  }
+  
+  .btn-primary {
+    @apply btn bg-primary text-white hover:bg-primary/90 px-6 py-3;
+  }
+  
+  .btn-secondary {
+    @apply btn bg-secondary text-white hover:bg-secondary/90 px-6 py-3;
+  }
+  
+  .btn-outline {
+    @apply btn border border-primary text-primary hover:bg-primary hover:text-white px-6 py-3;
+  }
+  
+  .section {
+    @apply py-16 lg:py-24;
+  }
+  
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .heading-1 {
+    @apply text-4xl lg:text-6xl font-bold font-heading;
+  }
+  
+  .heading-2 {
+    @apply text-3xl lg:text-5xl font-bold font-heading;
+  }
+  
+  .heading-3 {
+    @apply text-2xl lg:text-3xl font-semibold font-heading;
+  }
+  
+  .text-body {
+    @apply text-gray-600 leading-relaxed;
+  }
+  
+  .logo-font {
+    font-family: 'JeonnamDotak', 'Noto Sans KR', sans-serif;
+  }
+} 
