@@ -1,0 +1,29 @@
+User-agent: *
+Allow: /
+
+# 주요 페이지들
+Allow: /about
+Allow: /services  
+Allow: /case-studies
+Allow: /team
+Allow: /partners
+Allow: /contact
+
+# 이미지 및 정적 파일
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
+
+# 블록할 경로 (없음)
+# Disallow: 
+
+# 사이트맵 위치
+Sitemap: https://www.gooddealpartners.com/sitemap.xml
+
+# 크롤 딜레이 (선택사항)
+Crawl-delay: 1 

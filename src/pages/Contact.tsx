@@ -12,6 +12,7 @@ import {
   DollarSign,
   Globe
 } from 'lucide-react';
+import SEO from '../components/common/SEO';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -71,8 +72,40 @@ const Contact = () => {
     }));
   };
 
+  const contactJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "굿딜파트너",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "0504-080-4769",
+        "email": "sqdhs@naver.com",
+        "contactType": "customer service",
+        "availableLanguage": "Korean"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "자룡로 48번길, 44",
+        "addressLocality": "창원시",
+        "addressRegion": "경남",
+        "addressCountry": "KR"
+      }
+    }
+  }
+
   return (
     <div className="min-h-screen pt-20">
+      <SEO 
+        title="무료 상담 신청 - 글로벌 진출의 꿈을 현실로"
+        description="굿딜파트너와 함께 글로벌 진출의 꿈을 현실로 만들어보세요. 전문가와의 무료 상담으로 최적의 마케팅 전략을 수립하고 24시간 내 빠른 응답을 받으세요."
+        keywords="무료 상담, 마케팅 상담, 글로벌 진출, 해외 마케팅, 굿딜파트너 연락처, 상담 신청, 마케팅 전략"
+        ogTitle="굿딜파트너 무료 상담 - 글로벌 진출을 위한 첫 걸음"
+        ogDescription="전문가와의 무료 상담으로 글로벌 마케팅 성공 전략을 수립하세요. 24시간 내 빠른 응답 보장."
+        canonicalUrl="https://www.gooddealpartners.com/contact"
+        jsonLd={contactJsonLd}
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-primary to-secondary text-white py-20">
         <div className="container mx-auto px-4">

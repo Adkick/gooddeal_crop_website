@@ -13,7 +13,7 @@ const navigation = [
 
 const services = [
   { name: 'AddKick', href: '/services#addkick' },
-  { name: '인플루언서 마케팅', href: '/services#influencer' },
+  { name: '디지털 마케팅', href: '/services#digital' },
   { name: '해외 진출 컨설팅', href: '/services#consulting' },
   { name: 'Renpick', href: '/services#renpick' },
 ]
@@ -32,6 +32,7 @@ export default function Footer() {
                 src="/gooddeal-logo-footer.png" 
                 alt="굿딜파트너 로고" 
                 className="h-60 w-auto"
+                loading="lazy"
               />
             </div>
             <p className="text-gray-400 mb-6 max-w-md">

@@ -31,6 +31,7 @@ export default function Header() {
                 src="/gooddeal_logo.png" 
                 alt="굿딜파트너 로고" 
                 className="h-10 w-auto"
+                fetchPriority="high"
               />
               <span className="text-xl font-bold logo-font" style={{ color: '#0b4f83' }}>굿딜파트너</span>
             </Link>

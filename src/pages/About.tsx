@@ -9,6 +9,7 @@ import {
   Lightbulb,
   Shield
 } from 'lucide-react'
+import SEO from '../components/common/SEO'
 
 const visionPoints = [
   {
@@ -61,8 +62,27 @@ const differentiators = [
 ]
 
 export default function About() {
+  const aboutJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "굿딜파트너",
+      "description": "한국을 넘어 민간 KOTRA를 꿈꾸는 광고 업계의 해답. 전문적인 마케팅 솔루션으로 기업의 글로벌 진출을 지원합니다."
+    }
+  }
+
   return (
     <div className="overflow-hidden">
+      <SEO 
+        title="회사소개 - 민간 KOTRA를 꿈꾸는 광고 업계의 해답"
+        description="굿딜파트너는 마케팅 전문 법인으로서 한국 기업들이 해외 시장에서 성공할 수 있도록 전문적인 솔루션과 파트너십을 제공합니다. AI 기술과 투명한 프로세스로 마케팅의 미래를 만듭니다."
+        keywords="굿딜파트너 소개, 회사소개, 민간 KOTRA, 마케팅 전문 법인, 해외 진출, AI 마케팅, 광고 대행사, 글로벌 마케팅"
+        ogTitle="굿딜파트너 - 한국을 넘어 민간 KOTRA를 꿈꾸는 광고 업계의 해답"
+        ogDescription="투명하고 효과적인 마케팅 솔루션으로 모든 기업이 글로벌 시장에서 성공할 수 있도록 돕는 굿딜파트너를 소개합니다."
+        canonicalUrl="https://www.gooddealpartners.com/about"
+        jsonLd={aboutJsonLd}
+      />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-blue-50 via-white to-blue-50 pt-32 pb-20">
         <div className="container">

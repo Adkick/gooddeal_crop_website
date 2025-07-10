@@ -11,6 +11,7 @@ import {
   CheckCircle,
   Star
 } from 'lucide-react'
+import SEO from '../components/common/SEO'
 
 // 실시간 성과 데이터
 const realTimeData = [
@@ -18,7 +19,7 @@ const realTimeData = [
     country: '🇻🇳',
     industry: 'K뷰티 브랜드',
     growth: '+340%',
-    channel: '틱톡 인플루언서 15명 협업',
+    channel: '틱톡 파트너 15명 협업',
     timeAgo: '3분 전 업데이트'
   },
   {
@@ -32,7 +33,7 @@ const realTimeData = [
     country: '🇹🇭',
     industry: '레스토랑 R사',
     growth: '+180%',
-    channel: '현지 푸드 인플루언서 12명',
+    channel: '현지 푸드 파트너 12명',
     timeAgo: '12분 전 업데이트'
   }
 ]
@@ -46,7 +47,7 @@ const stats = [
 
 const liveStats = [
   { label: '진행 중 프로젝트', value: '47개' },
-  { label: '활성 인플루언서', value: '283명' },
+  { label: '활성 파트너사', value: '283개' },
   { label: '진출 국가', value: '5개국' },
 ]
 
@@ -62,8 +63,38 @@ export default function Home() {
     return () => clearInterval(interval)
   }, [])
 
+  const organizationJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "굿딜파트너",
+    "alternateName": "GoodDeal Partners",
+    "url": "https://www.gooddealpartners.com",
+    "logo": "https://www.gooddealpartners.com/gooddeal_logo.png",
+    "description": "한국을 넘어 민간 KOTRA를 꿈꾸는 글로벌 광고 업계의 해답. AI 기반 디지털 마케팅 솔루션 제공.",
+    "foundingDate": "2023",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "KR"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "url": "https://www.gooddealpartners.com/contact"
+    },
+    "sameAs": []
+  }
+
   return (
     <div className="overflow-hidden">
+      <SEO 
+        title="실시간 성과 창출 중"
+        description="전 세계 고객들이 굿딜파트너와 함께 실시간으로 성과를 만들어가고 있습니다. AI 기반 디지털 마케팅으로 평균 ROI 300% 개선, 95% 고객 만족도를 달성하세요."
+        keywords="굿딜파트너, 실시간 성과, 디지털 마케팅, ROI 300%, 해외 진출, 마케팅 성과, AddKick, 글로벌 마케팅, AI 마케팅"
+        ogTitle="굿딜파트너 - 지금 이 순간도 성과가 만들어지고 있습니다"
+                  ogDescription="전 세계 고객들과 함께 실시간으로 만들어지는 마케팅 성과를 확인하세요. 평균 ROI 300% 개선, 47개 진행 프로젝트, 5개국 진출 성공."
+        canonicalUrl="https://www.gooddealpartners.com/"
+        jsonLd={organizationJsonLd}
+      />
       {/* Hero Section */}
       <section className="relative pt-20 pb-32 overflow-hidden">
         {/* 배경 이미지 */}
@@ -245,7 +276,7 @@ export default function Home() {
               </h2>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
                 굿딜파트너는 마케팅 전문 법인으로서 한국 기업의 해외 진출을 성공시키는 
-                파트너입니다. AI 기반 광고 솔루션과 현지 인플루언서 네트워크를 통해 
+                파트너입니다. AI 기반 광고 솔루션과 현지 마케팅 네트워크를 통해 
                 실질적인 성과를 만들어냅니다.
               </p>
               
