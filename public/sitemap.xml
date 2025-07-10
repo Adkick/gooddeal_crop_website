@@ -6,7 +6,7 @@
 
   <!-- 홈페이지 -->
   <url>
-    <loc>https://www.gooddealpartners.com/</loc>
+    <loc>https://gooddealpartner.com/</loc>
     <lastmod>2024-12-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -14,7 +14,7 @@
 
   <!-- 회사소개 -->
   <url>
-    <loc>https://www.gooddealpartners.com/about</loc>
+    <loc>https://gooddealpartner.com/about</loc>
     <lastmod>2024-12-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -22,7 +22,7 @@
 
   <!-- 서비스 소개 -->
   <url>
-    <loc>https://www.gooddealpartners.com/services</loc>
+    <loc>https://gooddealpartner.com/services</loc>
     <lastmod>2024-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -30,7 +30,7 @@
 
   <!-- 성과 사례 -->
   <url>
-    <loc>https://www.gooddealpartners.com/case-studies</loc>
+    <loc>https://gooddealpartner.com/case-studies</loc>
     <lastmod>2024-12-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -38,7 +38,7 @@
 
   <!-- 팀 소개 -->
   <url>
-    <loc>https://www.gooddealpartners.com/team</loc>
+    <loc>https://gooddealpartner.com/team</loc>
     <lastmod>2024-12-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -46,7 +46,7 @@
 
   <!-- 파트너십 -->
   <url>
-    <loc>https://www.gooddealpartners.com/partners</loc>
+    <loc>https://gooddealpartner.com/partners</loc>
     <lastmod>2024-12-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -54,7 +54,7 @@
 
   <!-- 연락처 -->
   <url>
-    <loc>https://www.gooddealpartners.com/contact</loc>
+    <loc>https://gooddealpartner.com/contact</loc>
     <lastmod>2024-12-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

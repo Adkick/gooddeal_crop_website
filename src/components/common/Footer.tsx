@@ -13,8 +13,6 @@ const navigation = [
 
 const services = [
   { name: 'AddKick', href: '/services#addkick' },
-  { name: '디지털 마케팅', href: '/services#digital' },
-  { name: '해외 진출 컨설팅', href: '/services#consulting' },
   { name: 'Renpick', href: '/services#renpick' },
 ]
 

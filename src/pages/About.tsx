@@ -80,7 +80,7 @@ export default function About() {
         keywords="굿딜파트너 소개, 회사소개, 민간 KOTRA, 마케팅 전문 법인, 해외 진출, AI 마케팅, 광고 대행사, 글로벌 마케팅"
         ogTitle="굿딜파트너 - 한국을 넘어 민간 KOTRA를 꿈꾸는 광고 업계의 해답"
         ogDescription="투명하고 효과적인 마케팅 솔루션으로 모든 기업이 글로벌 시장에서 성공할 수 있도록 돕는 굿딜파트너를 소개합니다."
-        canonicalUrl="https://www.gooddealpartners.com/about"
+        canonicalUrl="https://gooddealpartner.com/about"
         jsonLd={aboutJsonLd}
       />
       {/* Hero Section */}

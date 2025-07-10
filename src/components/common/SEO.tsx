@@ -19,7 +19,7 @@ const defaultSEO = {
   description: '한국을 넘어 민간 KOTRA를 꿈꾸는 글로벌 광고 업계의 해답. AI 기반 디지털 마케팅 솔루션으로 해외 진출을 성공시킵니다.',
   keywords: '굿딜파트너, 디지털 마케팅, 해외 진출, AI 광고, AddKick, 아시아 마케팅, 글로벌 마케팅, KOTRA, 광고 대행사, 성과 기반 마케팅',
   ogImage: '/gooddeal_logo.png',
-  ogUrl: 'https://www.gooddealpartners.com'
+  ogUrl: 'https://gooddealpartner.com'
 }
 
 export default function SEO({

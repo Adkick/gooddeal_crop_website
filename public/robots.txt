@@ -23,7 +23,7 @@ Allow: /*.webp$
 # Disallow: 
 
 # 사이트맵 위치
-Sitemap: https://www.gooddealpartners.com/sitemap.xml
+Sitemap: https://gooddealpartner.com/sitemap.xml
 
 # 크롤 딜레이 (선택사항)
 Crawl-delay: 1 

@@ -121,7 +121,7 @@ export default function Services() {
         keywords="AddKick, Renpick, AI 마케팅, 광고 대행사 매칭, 가전 렌탈, 디지털 마케팅 서비스, 굿딜파트너 서비스"
         ogTitle="굿딜파트너 서비스 - AddKick과 Renpick으로 혁신하는 마케팅"
         ogDescription="AI 기반 광고 대행사 매칭 플랫폼 AddKick과 가전 렌탈 종합 몰 Renpick. 굿딜파트너의 혁신적인 서비스를 경험해보세요."
-        canonicalUrl="https://www.gooddealpartners.com/services"
+        canonicalUrl="https://gooddealpartner.com/services"
         jsonLd={servicesJsonLd}
       />
       {/* Hero Section */}

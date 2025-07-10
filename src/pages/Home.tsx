@@ -68,8 +68,8 @@ export default function Home() {
     "@type": "Organization",
     "name": "굿딜파트너",
     "alternateName": "GoodDeal Partners",
-    "url": "https://www.gooddealpartners.com",
-    "logo": "https://www.gooddealpartners.com/gooddeal_logo.png",
+    "url": "https://gooddealpartner.com",
+    "logo": "https://gooddealpartner.com/gooddeal_logo.png",
     "description": "한국을 넘어 민간 KOTRA를 꿈꾸는 글로벌 광고 업계의 해답. AI 기반 디지털 마케팅 솔루션 제공.",
     "foundingDate": "2023",
     "address": {
@@ -79,7 +79,7 @@ export default function Home() {
     "contactPoint": {
       "@type": "ContactPoint",
       "contactType": "customer service",
-      "url": "https://www.gooddealpartners.com/contact"
+              "url": "https://gooddealpartner.com/contact"
     },
     "sameAs": []
   }
@@ -92,7 +92,7 @@ export default function Home() {
         keywords="굿딜파트너, 실시간 성과, 디지털 마케팅, ROI 300%, 해외 진출, 마케팅 성과, AddKick, 글로벌 마케팅, AI 마케팅"
         ogTitle="굿딜파트너 - 지금 이 순간도 성과가 만들어지고 있습니다"
                   ogDescription="전 세계 고객들과 함께 실시간으로 만들어지는 마케팅 성과를 확인하세요. 평균 ROI 300% 개선, 47개 진행 프로젝트, 5개국 진출 성공."
-        canonicalUrl="https://www.gooddealpartners.com/"
+        canonicalUrl="https://gooddealpartner.com/"
         jsonLd={organizationJsonLd}
       />
       {/* Hero Section */}
