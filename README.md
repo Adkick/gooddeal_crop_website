@@ -131,12 +131,7 @@ npm run preview
 
 ### 환경 변수
 현재 프로젝트에서는 별도의 환경변수 설정이 필요하지 않습니다. 
-필요한 경우 `.env` 파일을 생성하여 다음과 같이 설정할 수 있습니다:
 
-```
-VITE_API_URL=your_api_url
-VITE_CONTACT_EMAIL=sqdhs@naver.com
-```
 
 ## 📞 연락처
 
