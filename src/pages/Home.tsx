@@ -89,7 +89,7 @@ export default function Home() {
       <SEO 
         title="실시간 성과 창출 중"
         description="전 세계 고객들이 굿딜파트너와 함께 실시간으로 성과를 만들어가고 있습니다. AI 기반 디지털 마케팅으로 평균 ROI 300% 개선, 95% 고객 만족도를 달성하세요."
-        keywords="굿딜파트너, 실시간 성과, 디지털 마케팅, ROI 300%, 해외 진출, 마케팅 성과, AddKick, 글로벌 마케팅, AI 마케팅"
+        keywords="굿딜파트너, 굿딜 파트너, gooddealpartner, 실시간 성과, 디지털 마케팅, ROI 300%, 해외 진출, 마케팅 성과, AddKick, 글로벌 마케팅, AI 마케팅, 마케팅 대행, 해외 마케팅, 아시아 마케팅, 마케팅 컨설팅"
         ogTitle="굿딜파트너 - 지금 이 순간도 성과가 만들어지고 있습니다"
                   ogDescription="전 세계 고객들과 함께 실시간으로 만들어지는 마케팅 성과를 확인하세요. 평균 ROI 300% 개선, 47개 진행 프로젝트, 5개국 진출 성공."
         canonicalUrl="https://gooddealpartner.com/"
